@@ -444,23 +444,3 @@ This project is an independent migration utility.
 It is not affiliated with, endorsed by, or maintained by Evernote or Joplin.
 
 Always keep backups of your original ENEX exports and verify migrated data before deleting or modifying your source notebooks.
-
----
-
-## License
-
-Choose an open-source license before publishing the repository.
-
-For a small utility like this, the MIT License is a simple permissive option if you want others to freely use, modify, and redistribute the script.
-```
-
-One change I'd make to the repository itself before you publish it: **don't call it `prepare_enerx.py`**. Use **`prepare_enex.py`** everywhere (`ENEX`, not `ENERX`).
-
-I'd also structure the public repo simply as:
-
-```text
-evernote-joplin-migration/
-├── prepare_enex.py
-├── README.md
-├── LICENSE
-└── .gitignore
